@@ -11,10 +11,12 @@ def encriptar_aux(string, llave, i, nuevoString, listallaves):
     if(i == len(string)):
         print(nuevoString)
         return desencriptar(nuevoString, listallaves)
+    else:
         
         listallaves.append(llave)
         
         #Lista estática
+        lista1 = ["a","b","c","d","e","f","g","h","i","j","k","l",
                   "m","n","ñ","o","p","q","r","s","t","u","v","w",
                   "x","y","z", "A", "B", "C", "D", "E", "F", "G", "H",
                   "I", "J", "K", "L", "M", "N","Ñ","O","P","Q","R","S",
